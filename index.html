@@ -1,10 +1,120 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+       <title>Color Table</title>
+         <h1>Color Table</h1> 
+         <style>
+           html{
+             font-family: helvetica;
+           }
+           table, th, td{
+             border: 1px solid black;
+           }
+           .black{
+             color: #000000;
+           }
+           .white{
+             color: #ffffff;
+             background-color:black;
+           }
+           .red{
+             color: #ff0000;
+           }
+           .green{
+             color: #00ff00;
+             background-color:black;
+           }
+           .blue{
+             color: #0000ff;
+           }
+           .yellow{
+             color: #ffff00;
+             background-color:black;
+           }
+           .purple{
+             color: #800080;
+           }
+           .gray{
+             color: RGB(128,128,128);
+             background-color:black;
+           }
+           .orange{
+             color: #ff8000;
+           }
+           .turquoise{
+             color: #00ffff;
+             background-color:black;
+           }
+           </style>
     </head>
-    
     <body>
-	
+      <table>
+        <tr>
+          <th>Color Name</th>
+          <th>Example</th>
+          <th>Hexadecimal</th>
+          <th>RGB</th>
+        </tr>
+        <tr class="black">
+          <td>Black</td>
+          <td style="background-color: #000000"></td>
+          <td>#000000</td>
+          <td>(0,0,0)</td>
+        </tr>
+        <tr class="white">
+          <td>White</td>
+          <td style="background-color: #ffffff"></td>
+          <td>#ffffff</td>
+          <td>(255,255,255)</td>
+        </tr>
+        <tr class="red">
+          <td>Red</td>
+          <td style="background-color: #ff0000"></td>
+          <td>#ff0000</td>
+          <td>(255,0,0)</td>
+        </tr>
+         <tr class="green">
+          <td>Green</td>
+          <td style="background-color: #00ff00"></td>
+          <td>#00ff00</td>
+          <td>(0,255,0)</td>
+        </tr>
+        <tr class="blue">
+          <td>Blue</td>
+          <td style="background-color: #0000ff"></td>
+          <td>#0000ff</td>
+          <td>(0,0,255)</td>
+        </tr>
+        <tr class="yellow">
+          <td>Yellow</td>
+          <td style="background-color: #ffff00"></td>
+          <td>#ffff00</td>
+          <td>(255,255,0)</td>
+        </tr>
+        <tr class="purple">
+          <td>Purple</td>
+          <td style="background-color: #800080"></td>
+          <td>#800080</td>
+          <td>(128,0,128)</td>
+        </tr>
+        <tr class="gray">
+          <td>Gray</td>
+          <td style="background-color: #808080"></td>
+          <td>#808080</td>
+          <td>(128,128,128)</td>
+        </tr>
+        <tr class="orange">
+          <td>Orange</td>
+          <td style="background-color: #ff8000"></td>
+          <td>#ff8000</td>
+          <td>(255,128,0)</td>
+        </tr>
+        <tr class="turquoise">
+          <td>Grayish oceanish blue</td>
+          <td style="background-color: #3964a8"></td>
+          <td>#00ffff</td>
+          <td>(0,255,255)</td>
+        </tr>
+      </table>
     </body>
 </html>
